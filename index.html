@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<style>
+
+.header{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    grid-column: 1/3;
+    border: solid 2px rgb(0, 208, 255);
+}
+.footer{
+    border: solid 2px rgb(0, 208, 255);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    grid-column: 1/3;
+    grid-row-start: 3;
+    
+}
+.aside{
+    border: solid 2px rgb(0, 208, 255);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    
+}
+.section{
+    border: solid 2px rgb(0, 208, 255);
+    background-color: rgb(4, 4, 4);
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:600px;
+    font-size: 20px;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    
+}
+.botao{
+    border: solid 2px rgb(0, 208, 255);
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+</style>
+<body>
+    <div class="container">
+        <header class="header">Bem vindo(a)
+        </header>
+        <aside class="aside"><iframe width="194" height="515" src="https://www.youtube.com/embed/5qap5aO4i9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></aside>
+        <section class="section">Frase motivadora, porque não sei o que colocar: "Jamais desista das pessoas que ama. Jamais desista de ser feliz. Lute sempre pelos seus sonhos. Seja profundamente apaixonado pela vida. Pois a vida é um espetáculo imperdível.</section>
+        <footer class="footer"><form target="blank" action="https://docs.google.com/document/d/10KNbi3I1DM1lGsVnpQvJ3naUhtwI_yLeqVPK8TxWb_s/edit?usp=sharing">
+            <button class="botao" type="submit">Clique aqui e descubra:</button>
+        </form></footer>
+    </div>
+</body>
+</html>
